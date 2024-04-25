@@ -110,12 +110,13 @@ p{
 
 .jogadores{
     display: flex;
+    padding: 2rem;
     gap: 3rem;
 
 }
 
 .img-jogadores{
-    width: 200px;
+    max-width: 100%;
     border-radius: 1rem;
 }
 
@@ -223,7 +224,7 @@ input{
 }
 
 
-@media(max-width: 960px){
+@media(max-width: 768px){
     nav{
         gap: 2rem;
         flex-direction: column 
@@ -258,11 +259,33 @@ input{
 
     footer{
         flex-direction: column;
-        height: 8rem;
+        height: 9rem;
         gap: 12px;
     }
 
     footer p{
         text-align: center;
+    }
+
+    ul{
+        gap: 2rem;
+    }
+
+    .primeiro-container h2{
+        padding: 2rem;
+    }
+
+    .primeiro-container p{
+        padding: 2rem;
+    }
+
+    .sobre-desc p{
+        font-size: 1.2rem;
+        padding: 3rem;
+    }
+
+    .form-input a{
+        width: 20vw;
+       
     }
 }
