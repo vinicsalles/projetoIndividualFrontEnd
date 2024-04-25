@@ -53,12 +53,14 @@ p{
 }
 
 .new{
-    margin: 2rem;
+    margin-top: 5rem;
+    padding: 2rem;
     font-size: 1.7rem;
 }
 
 .titsobre{
-    margin: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
     font-size: 1.7rem;
 }
 
@@ -93,6 +95,7 @@ p{
 }
 
 .sobre-desc{
+    padding: 2rem;
     display: flex;
     gap: 3rem;
     align-items: center;
